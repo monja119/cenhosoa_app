@@ -1,6 +1,36 @@
 {% extends 'base.html' %}
+{% load static %}
 {% block title %} {{ id }} {% endblock %}
 
 {% block content %}
-    vakiana ny {{  id }}
+
+<!-- style -->
+<link rel="stylesheet" href="{% static 'css/mofonaina/famakiana.css' %}">
+<!-- ./style -->
+<div class="d-flex flex-row justify-content-start pt-3 pl-3">
+    <i id="retour" class="cursor-pointer fa fa-arrow-circle-left fa-2x m-2"></i>
+
+    <select id="apparance" class="form-control mt-1" style="width: auto; height: 1%">
+        <option value="white" selected>Mazava</option>
+        <option value="black">Maizina</option>
+    </select>
+</div>
+
+<div id="mofonaina" class="m-1 p-2 border rounded">
+    <h4 class="text-center"> Lohateny </h4>
+
+    <p class="p-3">
+        fqdssssssssssssssssssssssssssssssssjlnbklsdbjklcbvjkl
+    </p>
+
+    <p class="d-flex flex-row-reverse">
+        , daty
+        <i>Mpanoratra</i>
+    </p>
+
+</div>
+
+<!-- script -->
+<script type="application/javascript" src="{% static 'js/mofonaina/famakiana.js' %}"> </script>
+<!-- ./ script -->
 {% endblock %}
