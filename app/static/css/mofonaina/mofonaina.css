@@ -1,0 +1,20 @@
+#home{
+    height: 95vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding-top: 15%;
+}
+
+.card .card-body{
+    overflow-y: hidden;
+    height: 250px;
+}
+
+#mofonaina-container{
+    display: flex;
+    flex-flow: row wrap;
+}
+#mofonaina-container .div{
+}
